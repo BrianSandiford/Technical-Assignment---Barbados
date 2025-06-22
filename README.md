@@ -12,6 +12,7 @@ This repository contains a Google Colab notebook for cleaning and exploring the 
 - `health_registry_eda_clean_complete.ipynb` – Main notebook for cleaning and EDA
 - `health_registry.csv` – Raw data file (stored in Google Drive)
 - `cleaned_health_registry.csv` – Cleaned dataset (output saved to Google Drive)
+- `Documentation` - A report that summarizes profiling & majorfindings
 
 ---
 
