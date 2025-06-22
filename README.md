@@ -90,5 +90,6 @@ You can then download or share the output CSV directly from your Google Drive.
 
 Please see video where I explain the knowledge graph design, ontology sketch, and RAG architecture based on the cleaned dataset:
 
-[▶️ Click here to watch on Loom]([https://www.loom.com/share/your-video-id-here](https://www.loom.com/share/59fb624622b84fc8a356d003d859d31c)
+[▶️ Click here to watch on Loom](https://www.loom.com/share/59fb624622b84fc8a356d003d859d31c)
+
 
