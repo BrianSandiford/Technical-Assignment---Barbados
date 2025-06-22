@@ -29,11 +29,26 @@ Or upload it manually to https://colab.research.google.com
 
 ### 2. Mount Google Drive
 
+> ⚠️ **Note:** You must be logged into your **Google account** to use this feature.
+
 To access the raw `health_registry.csv` file from your Google Drive and save the output:
 
-```python
-from google.colab import drive
-drive.mount('/content/drive')
+
+1. Open your notebook in **Google Colab**
+
+2. In the **left sidebar**, click the **folder icon** 📁 to open the **Files pane**
+
+3. Click the **"Mount Drive"** button at the top (you’ll see a small Google Drive icon)
+
+4. A prompt will appear asking you to **authorize access to your Google Drive**
+
+5. Sign in and allow the required permissions
+
+6. Once mounted, you will see a new folder in the file pane:
+
+```bash
+/content/drive/
+
 ```
 ### 3. Load Your Dataset
 
