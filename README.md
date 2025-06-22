@@ -85,3 +85,10 @@ You can then download or share the output CSV directly from your Google Drive.
   - `lat, long`
   - DMS format like `13°9′5″N 58°58′44″W`
 - All dates (`licence_issue_date`, `inspection_date`) are parsed and standardized to datetime format
+
+## 🎥 Loom Video Walkthrough
+
+Please see video where I explain the knowledge graph design, ontology sketch, and RAG architecture based on the cleaned dataset:
+
+[▶️ Click here to watch on Loom]([https://www.loom.com/share/your-video-id-here](https://www.loom.com/share/59fb624622b84fc8a356d003d859d31c))
+
