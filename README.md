@@ -72,3 +72,16 @@ df_clean.to_csv(output_path, index=False)
 ```
 
 You can then download or share the output CSV directly from your Google Drive.
+
+
+## 📌 Key Assumptions & Cleaning Decisions
+
+- Duplicates are dropped using `df.drop_duplicates()`
+- `capacity` is cleaned into a numeric column.Extracted numeric values only.
+- `region` is standardized using `.str.title()` and cleaned to remove variations of `"Parish"`
+- Reversed or corrupted region names (like `"WERDNA .TS"`) are detected and fixed
+- GPS coordinates are extracted from multiple formats, including:
+  - `POINT(long lat)`
+  - `lat, long`
+  - DMS format like `13°9′5″N 58°58′44″W`
+- All dates (`licence_issue_date`, `inspection_date`) are parsed and standardized to datetime format
