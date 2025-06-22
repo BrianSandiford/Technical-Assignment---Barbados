@@ -20,7 +20,7 @@ This repository contains a Google Colab notebook for cleaning and exploring the 
 ### 1. Open the notebook
 
 Click here to open the notebook in Colab:  
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com)
+[![Open In Colab](https://colab.research.google.com/github/BrianSandiford/Technical-Assignment---Barbados/blob/main/health_registry_eda_clean.ipynb)](https://colab.research.google.com)
 
 Or upload it manually to https://colab.research.google.com
 
