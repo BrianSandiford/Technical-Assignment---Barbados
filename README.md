@@ -34,3 +34,26 @@ To access the raw `health_registry.csv` file from your Google Drive and save the
 ```python
 from google.colab import drive
 drive.mount('/content/drive')
+```
+### 3. Load Your Dataset
+
+Replace the path with your own file location on Google Drive:
+
+```python
+import pandas as pd
+
+file_path = '/content/drive/MyDrive/your-folder/health_registry.csv'
+df = pd.read_csv(file_path)
+```
+### 4. Run All Cells
+
+Go to Runtime > Run all or press `Ctrl + F9` to run the entire notebook from top to bottom.
+
+### 5. Save Output to Google Drive
+
+```python
+output_path = '/content/drive/MyDrive/your-folder/cleaned_health_registry.csv'
+df_clean.to_csv(output_path, index=False)
+```
+
+You can then download or share the output CSV directly from your Google Drive.
